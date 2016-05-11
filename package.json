@@ -1,7 +1,6 @@
 {
   "name": "calendar-starter",
   "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "karma start app/utilities/calendar-range/karma.conf.js"
@@ -9,8 +8,27 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0",
+    "jquery": "^2.2.3",
     "karma": "^0.12.17",
     "karma-chrome-launcher": "^0.1.5",
-    "karma-jasmine": "^0.1.5"
-  }
+    "karma-jasmine": "^0.1.5",
+    "karma-ng-html2js-preprocessor": "^1.0.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma": "^0.12.37",
+    "karma-jasmine": "^0.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolechie/simple-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicolechie/simple-calendar/issues"
+  },
+  "homepage": "https://github.com/nicolechie/simple-calendar#readme",
+  "description": ""
 }

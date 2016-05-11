@@ -1,1 +1,40 @@
-/* your css code goes here */
+
+.column {
+	border: 1px solid #292929;
+	width: 14.28%;
+	float: left;
+	position: relative;
+    min-height: 150px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+}
+.dayNames {
+	border: 1px solid #292929;
+	width: 14.28%;
+	float: left;
+	position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+.size20 {
+	font-size: 20px;
+}
+.calendar {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+.tmargin15 {
+	margin-top: 15px;
+}
+.shaded {
+	background-color: grey;
+}
+.selected {
+	background-color: blue;
+}
+.accent {
+	color: #f7484e;
+}

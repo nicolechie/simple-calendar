@@ -1,0 +1,8 @@
+<div class="calendar">
+	<div class="dayNames accent text-center" ng-repeat="dayName in dayNames">
+		<h3 class = "size20">{{ dayName }}</h3>
+	</div>
+	<div class="column" ng-repeat="day in days" ng-class="{'shaded' : day.isGray}">
+		<h6>{{ day.day }}</h6>
+	</div>
+</div> 
